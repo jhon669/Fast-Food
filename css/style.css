@@ -1,0 +1,229 @@
+.body{
+    background-color: #fffffffd
+}
+.nav{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+#bt1{
+    
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform:uppercase;
+    background-color: #ffcf57;
+}
+#bt2{
+
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform:uppercase;
+    background-color: #ffcf57;
+}
+#bt3{
+
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform:uppercase;
+    background-color: #ffcf57;
+}
+#bt4{
+
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform:uppercase;
+    background-color: #ffcf57;
+}
+#titulo{
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+#logo{
+    margin: auto;
+    display: block;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 1297px;
+    top: 577px;
+}
+#frase{
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+.form1{
+    background-color: #ffcf57;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 10px;
+    width: 900px;
+    outline: auto;
+    margin-top: 0px;
+    position: relative;
+    left: 0px;
+}
+.campo{
+    border: 0;
+    outline: 0;
+    border: solid 1px;
+    padding: 10px;
+}
+.label{
+    font-size: 12px;
+}
+.btn_reg{
+    width: 191px;
+    padding: 10px;
+    text-align: center;
+}
+.form2{
+    background-color: #ffcf57;
+    outline: auto;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-right: 1000px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 287px;
+    left: 950px;
+}
+#facebook{
+    width: 300px;
+    height: 50px;
+}
+#google{
+    width: 300px;
+    height: 50px;
+}
+.form3{
+    background-color: #ffcf57;
+    outline: auto;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-right: 50px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 160px;
+}
+.form4{
+    background-color: #ffcf57;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 10px;
+    width: 500px;
+    outline: auto;
+    margin-top: 0px;
+    position: relative;
+    left: 10px;
+    bottom: 100px;
+}
+.label1{
+    font-size: 12px;
+}
+.campo1{
+    border: 0;
+    outline: 0;
+    border: solid 1px;
+    padding: 10px;
+}
+.btn_grd{
+    width: 191px;
+    padding: 10px;
+    text-align: center;
+}
+@media (min-width: 480px){
+    .nav{
+        flex-direction: column;
+    }
+    #Video{
+        width: 320px; 
+        height: 240px;
+        justify-content: center;
+    }
+}
+@media (min-width: 480px){
+    .form1{
+        width: 400px;
+    }
+}
+@media (min-width: 480px){
+    .form4{
+        width: 400px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .nav{
+        flex-direction: row;
+    }
+    #Video{
+        width: 720px; 
+        height: 480px;
+        justify-content: center;
+    }
+}
+@media (min-width: 768px){
+    .form1{
+        width: 700px;
+    }
+}
+@media (min-width: 768px){
+    .form4{
+        width: 700px;
+    }
+}
+
+@media (min-width: 1024px){
+    .nav{
+        flex-direction: row;
+    }
+    #Video{
+        width: 1280px; 
+        height: 600px;
+        justify-content: center;
+    }
+}
+@media (min-width: 1024px){
+    .form1{
+        width: 900px;
+    }
+}
+@media (min-width: 1024px){
+    .form4{
+        width: 900px;
+    }
+}
